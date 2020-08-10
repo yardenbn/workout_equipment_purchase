@@ -1,0 +1,50 @@
+
+    body {font-family: Assistant, Helvetica, sans-serif;
+          direction: rtl;}
+/*-----page: MENU <start>-----*/
+    
+    #menu {overflow:visible;
+           background-color:rgba(73, 94, 136, 1);
+           position: fixed;
+           top: 0;
+           left: 0;
+           right: 0;
+           width: 100%;          
+           padding-top: 15px;
+           padding-bottom:15px;
+           border-bottom: 3px solid rgba(73, 94, 136, 1);}
+        
+        /*2*/
+        #navigation_menu {text-align: right;
+                          position: absolute;
+                          top:50px;
+                          width: 400px;
+                          color: black;}
+            /*2.1*/ 
+            a.menu_link {color:white;       
+                         padding: 10px;
+                         margin: -3px;
+                         text-decoration: none; 
+                         font-size: 17px;
+                         font-weight: 100;}
+            /*2.2*/
+            a.menu_link:hover {font-weight: bold;}
+            /*2.3*/
+            #navigation_menu > b {color:white;}
+        
+         /*3*/   
+        #icon_navigation {float: left;
+                          padding-left: 7px;}
+            /*3.1*/
+            #slogan {margin-top:50px;
+                     margin-left:2px;
+                     color:white;
+                     font-style: italic;
+                     font-weight: bold;
+                     text-decoration: none;
+                     float: right;}
+    
+ /*-----page: MENU <end>-----*/   
+    
+ 
+ 

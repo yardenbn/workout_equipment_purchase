@@ -1,0 +1,150 @@
+@import "stylling.css";
+
+.general_wrap {margin-top: 107.08px;
+               height: auto;}
+                
+hr {height: 5px;
+    border-style: solid;
+    background-image: linear-gradient(to right,white, #D4E7ED, #003366,#D4E7ED, #003366,#D4E7ED,white);
+    border-width: 0px 0 0 0;
+    border-radius: 30px;}
+            
+h2{width: 100%;
+   height: auto;
+   text-align: center;
+   color:#003366;}
+            
+/*picture slider section -- start*/
+                
+#pic_slide_wrapp{margin-left: -7.7px;
+                 margin-right: -7.7px;
+                 padding-bottom: 40px}
+                
+   .pic_slide {display: none; 
+               height: auto; 
+               width:100%;                       
+               max-height: 495px;}
+                
+    #motivation_quote{width: 100%;
+                      height: auto;
+                      text-align: center;
+                      font-family:MV Boli;
+                      font-size:50px;}
+                    
+        .fas {font-size:30px;
+              color:#003366;}
+                    
+        #motivation_quote span{color: #495E88;
+                               margin-left: 10px;
+                               margin-right: 10px;}
+                    
+        #motivation_quote #last_span{color: #A0AEC1;}
+                 
+/*picture slider section -- end*/
+            
+/*workouts section -- start*/
+            
+#workouts {width: 100%;
+           height: auto;
+           display: inline-block;
+           padding-top:30px;
+           padding-bottom:10px;}
+                
+    .workoutTypes {display: inline-block;
+                   width: 32.6%;
+                   height: 100%;
+                   background-color: white;
+                   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                   margin:3px;}
+                              
+        iframe {display: inline;
+                margin-left: auto;
+                 margin-right: auto;
+                width:100%;
+                height:300px;}
+                    
+        .container {text-align: center;
+                    padding: 10px 20px;}
+                        
+            .container h3 {color:#495E88;}
+                        
+            .workout_description {height: 149.333px;
+                                  width: 352.35px;}               
+            
+/*workouts section -- end*/
+          
+/*equipment section -- start*/
+                      
+#equipment {padding: 30px;
+            padding-bottom:5px;
+            width: auto;
+            height: auto;
+            text-align: center;} 
+                
+    .item {display:inline-block; 
+           margin: 15px;
+           padding: 10px;
+           text-align: center; 
+           background-color: white;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           border-radius: 8px;
+           height: auto;
+           width: 20%;}
+                    
+        #item_description {padding:5px; 
+                           color:grey;}
+                        
+            #item_img {border-radius: 8px;
+                       width: 100%; 
+                       height: 200px;}
+                        
+            #item_title {width:100%; 
+                         text-align: center;}
+                            
+                #item_title p {display:inline;                             
+                               padding:5px;}
+                                
+                    p > span > span {color: red;
+                                     font-weight: bold;}
+                    
+        #item_details {width:100%; 
+                       height:20px;
+                       text-align: center;}
+                        
+            #price {display:inline; 
+                    float: right;}
+                            
+                #price span {text-align:left;}
+                        
+            #quantity {display: inline; 
+                       float: left;}
+                            
+                #quantity input {border:1.5px solid #A0AEC1; 
+                                             border-radius:20px;
+                                             padding: 5px;
+                                             color:#003366;}
+                            
+    #button_wrapper{width: 100%;
+                    height: auto;
+                    display: inline-block;
+                    text-align: center;}            
+                            
+        #buy_button {margin: 15px;
+                     padding: 10px;
+                     background-color:#003366;
+                     color:white;
+                     border: 1px solid #003366;    
+                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                     border-radius: 8px;
+                     height: auto;
+                     width: auto;
+                     font-size:large;
+                     text-align: center;}
+                    
+        #buy_button:hover {font-weight: bold;}
+                    
+        #buy_button:active {/*clicking animation: defines how many px the element should move on the y-aixs (with - : moves up, without - :moves down)*/
+                            transform: translateY(4px);}
+ 
+/*equipment section -- end*/
+

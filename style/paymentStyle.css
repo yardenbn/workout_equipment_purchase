@@ -1,0 +1,142 @@
+@import "stylling.css";
+            
+.general_wrap {margin-top: 107.08px;
+               height: auto;
+               width: 100%;}
+            
+/*empty cart section -- start*/
+#empety_cart {width: 100%;
+              height: auto;
+              text-align: center;
+              padding-top: 60px;}
+            
+    #empety_cart > a {text-decoration: none;
+                      color: #495E88;
+                      display: inline-block;}
+                
+    #empety_cart > img {width: 200px;
+                        height: 200px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;}
+/*empty cart section -- end*/
+            
+            
+            
+/*full cart section -- start*/
+            
+    /*form sub section -- start*/
+    
+    #full_cart {padding-top: 10px;}
+
+        #full_cart > h2 {padding-right: 25px;
+                         color: #003366;}
+                    
+        #back_to_cart {padding-right: 25px;}
+                    
+            #back_to_cart  a, #contine_shop {text-decoration: none;
+                                             color:#003366;}
+                    
+        #payment_shipment_details {display: inline-block;
+                                   float: right;
+                                   width: 32%;
+                                   height: auto;
+                                   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                   padding: 15px;
+                                   margin:32px;
+                                   margin-top: 20px;}
+
+            #customer_details, #payment_details {display: inline-block;
+                                                 width: 100%;
+                                                 height: auto;}
+
+                #greeting{border-bottom: 1px solid #A0AEC1;
+                          border-top: 1px solid #A0AEC1;
+                          border-radius: 8px;
+                          width:100%;
+                          padding-bottom: 5px;
+                          padding-top: 5px;
+                          text-align:center;
+                          color:#003366;
+                          font-weight: bold;}
+
+                .errorMSG {color:red;
+                           font-size: small;}
+
+                h4 {color:#495E88;}
+
+                #personal_details, #card_number{display: inline;
+                                                float: right;}
+
+                #shipment_details, #card_details{display: inline-block;
+                                                 margin-right:20px;}
+
+                    #payment_shipment_details label {color:#6d7777;}
+
+                    #payment_shipment_details input,select{border:0.5px solid lightgray; 
+                                                           border-radius:3px;
+                                                           padding: 3px;
+                                                           margin-top:4px;
+                                                           margin-bottom:4px;
+                                                           display: inline-block;}
+
+                    input:focus,select:focus {box-shadow: 0 0 5px rgba(160, 174, 193, 1);
+                                              border: 1.5px solid rgba(160, 174, 193, 1);}
+
+                    #card_number  i {color:#A0AEC1;}
+
+                    select{display: inline;}
+
+                    #payment_shipment_details button {background-color:#003366;
+                                                      color:white;
+                                                      border-radius: 8px;
+                                                      border: none;
+                                                      height: auto;
+                                                      width: auto;
+                                                      font-size:13px;
+                                                      padding: 10px;
+                                                      text-align: center;
+                                                      display: block;}
+
+                    #payment_shipment_details button:hover{font-weight: bold}
+
+                    #payment_shipment_details button:active{transform: translateY(4px);}
+
+            #payment_success {text-align: center;}
+
+    /*form sub section -- end*/ 
+
+    /*items table sub section -- start*/
+    #order_sum {display: inline-block;
+                width: 50%;
+                height: auto;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                padding: 15px; 
+                margin:32px;
+                margin-top: 20px;}
+                
+        #items {margin-left: auto;
+                margin-right: auto;}
+                    
+            thead td {color:#003366;}
+
+            td {padding-left:30px;
+                padding-right: 30px;
+                font-size: small;
+                text-align: center;
+                border-bottom: 1px solid #A0AEC1;}
+                    
+                #equipIMG {width: 50px;
+                           height: 50px;
+                           border-radius: 4px;}
+                    
+            .sum_lines {color:#495E88;}
+                        
+            #final_payment>td{font-size: medium;}
+                        
+                .sum_lines td[colspan='4'] {text-align: right;}
+
+    /*items table sub section -- end*/
+            
+/*full cart section -- end*/
+
